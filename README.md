@@ -60,8 +60,8 @@ Le repo est un monorepo npm workspaces (`apps/web` + `functions`).
    `VITE_DIDIT_CLIENT_ID` peuvent rester vides : elles ne sont utilisées par
    aucune page publique dans cette v1 (voir "Scaffolding non actif" plus bas).
 
-3. Mettez à jour `.firebaserc` avec l'ID réel de votre projet Firebase
-   (remplacez `exotour-vitrine`).
+3. `.firebaserc` pointe déjà vers le projet `exotour-7d0c2`. Si vous changez
+   de projet Firebase, mettez à jour cet ID.
 4. Connectez-vous à Firebase : `npx firebase login`.
 
 ## Lancer en local
