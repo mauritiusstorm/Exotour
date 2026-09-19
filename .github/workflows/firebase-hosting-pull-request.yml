@@ -3,10 +3,11 @@ name: Deploy preview on pull request
 on:
   pull_request:
     branches: [main]
+  workflow_dispatch: {}
 
 jobs:
   build_and_preview:
-    if: github.event.pull_request.head.repo.full_name == github.repository
+    if: github.event_name == 'workflow_dispatch' || github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
     permissions:
       checks: write
@@ -44,4 +45,8 @@ jobs:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
           projectId: ${{ secrets.FIREBASE_PROJECT_ID }}
+          # Manual runs (workflow_dispatch) aren't tied to a PR, so they need
+          # an explicit channel name; PR-triggered runs keep the default
+          # pr-<number> channel and PR comment behavior.
+          channelId: ${{ github.event_name == 'workflow_dispatch' && 'manual-test' || '' }}
           expires: 7d
