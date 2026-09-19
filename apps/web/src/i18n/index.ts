@@ -21,8 +21,11 @@ void i18n
     interpolation: {
       escapeValue: false
     },
+    // French is the default language regardless of browser locale, per spec.
+    // Only an explicit choice via the language switcher (persisted below)
+    // should ever move the site to English.
     detection: {
-      order: ['localStorage', 'navigator'],
+      order: ['localStorage'],
       caches: ['localStorage'],
       lookupLocalStorage: 'exotour-language'
     }
