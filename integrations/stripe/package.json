@@ -1,0 +1,10 @@
+{
+  "name": "@exotour/integration-stripe",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Scaffold only — no live payment flow is wired up in this v1. See README.md.",
+  "dependencies": {
+    "stripe": "^17.3.1",
+    "@stripe/stripe-js": "^4.9.0"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "meta": {
+    "title": "Exotour — Hiking made accessible to everyone",
+    "description": "Exotour equips your agency's groups with walking-assist exoskeletons and provides full on-site supervision, with no equipment investment from you."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About us",
+    "technology": "Our technology",
+    "concept": "The concept",
+    "howItWorks": "How it works",
+    "partnership": "Partnership",
+    "cta": "Become a partner"
+  },
+  "footer": {
+    "tagline": "Exotour — Exoskeleton-assisted hiking, Europe",
+    "credit": "A project developed in association with Riviera Shockwaves"
+  },
+  "language": {
+    "fr": "FR",
+    "en": "EN"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "For travel agencies — Europe",
+      "title": "Hiking made accessible to everyone, with no investment on your part.",
+      "subtitle": "Exotour equips your groups with walking-assist exoskeletons and provides full on-site supervision — you keep your catalogue, your brand and your customer relationship."
+    },
+    "about": {
+      "eyebrow": "About us",
+      "title": "Giving movement back to those who set it aside",
+      "body": "Exotour was born from a simple conviction: difficulty walking should never be the reason someone gives up on discovering a place. We equip hikers with discreet walking assistance, and put this technology at the service of agencies already building trips across Europe."
+    },
+    "imageAlt": "A senior hiking couple wearing their exoskeletons, smiling, in a mountain landscape",
+    "difference": {
+      "eyebrow": "Our difference",
+      "title": "An immediate point of difference, with no investment on your part",
+      "calloutTitle": "You buy nothing, you add an activity",
+      "calloutBody": "No equipment to acquire, no staff to train, no risk to carry alone: Exotour arrives with its own supervision and insurance. You get to offer an experience few agencies in Europe provide today."
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "Our story",
+      "title": "About us",
+      "subtitle": "Giving movement back to those who set it aside."
+    },
+    "conviction": {
+      "eyebrow": "Our conviction",
+      "title": "Difficulty walking should never be the reason someone gives up on discovering a place",
+      "body": "We equip hikers with discreet walking assistance, and put this technology at the service of agencies already building trips across Europe."
+    },
+    "notTitle": "What we are not",
+    "notBody": "We do not sell equipment. We are not an exoskeleton manufacturer looking for distributors.",
+    "areTitle": "What we are",
+    "areBody": "We provide a complete experience — device, supervision, safety — designed to give hikers held back by mobility the simple pleasure of moving forward on a trail, at a group's pace, without fear of falling behind.",
+    "imageAlt": "A group of hikers sitting in a circle, laughing together on a grassy summit at sunset",
+    "figures": {
+      "eyebrow": "In numbers",
+      "title": "The foundations of the offer at launch",
+      "note": "Launch figures for the offer — performance indicators (mobility, endurance, satisfaction) will be measured and published after the first pilot trips."
+    }
+  },
+  "technology": {
+    "hero": {
+      "eyebrow": "The device",
+      "title": "Our technology",
+      "subtitle": "Discreet assistance, not heavy medical equipment."
+    },
+    "how": {
+      "eyebrow": "How it works",
+      "title": "Gear that wears like standard hiking equipment",
+      "body": "The Exotour exoskeleton is worn like standard hiking equipment: a belt fitted at the waist, two straps running down the thighs to small, discreet actuators positioned on the side of the leg, just above the knee."
+    },
+    "imageAlt": "A guide adjusts the exoskeleton on a hiker's leg before departure",
+    "changesTitle": "What it actually changes",
+    "changesBody": "Progressive assistance with every step, reducing perceived effort on climbs and protecting joints on descents — without blocking or forcing the natural movement of walking.",
+    "notReplaceTitle": "What it doesn't replace",
+    "notReplaceBody": "This is not a medical device: every participant is assessed beforehand by our guide through a short comfort questionnaire, to make sure the chosen format suits them.",
+    "supervisionTitle": "Systematic supervision",
+    "supervisionBody": "Each exoskeleton is individually fitted before departure by a guide trained in its use, present throughout the trip."
+  },
+  "concept": {
+    "hero": {
+      "eyebrow": "The concept",
+      "title": "An assisted-hiking module, ready to add to your catalogue",
+      "subtitle": "Three formats, one promise: walk without fear."
+    },
+    "observation": {
+      "eyebrow": "The observation",
+      "title": "Many hikers stay off the trails",
+      "body": "Joint pain, rehabilitation, breathlessness, fear of fatigue: a significant share of tourism and travel agency clients give up on the hikes in their catalogue, not feeling able to keep up with the group."
+    },
+    "clientProblemTitle": "The problem for your clients",
+    "clientProblemBody": "They would like to take part, but choose a more sedentary activity instead — or give up on the active trip altogether.",
+    "agencyProblemTitle": "The problem for you",
+    "agencyProblemBody": "An entire segment of your clientele (seniors, spa-goers, people in gentle rehabilitation) remains out of reach of your current hiking offer.",
+    "included": {
+      "eyebrow": "What's included",
+      "title": "An all-inclusive package, per group",
+      "items": [
+        "Rental and individual fitting of the exoskeleton for each participant",
+        "Accompanying guide trained in exoskeleton use",
+        "Route adapted to the terrain and the group's profile",
+        "Dedicated activity insurance",
+        "Meal or snack break depending on the package",
+        "Equipment transport to the starting point"
+      ]
+    },
+    "formats": {
+      "eyebrow": "The formats",
+      "title": "Three formats, one promise",
+      "items": [
+        {
+          "duration": "2 to 3 hours",
+          "name": "Discovery",
+          "description": "Flat terrain, short loop, one or two scenic stops. A gentle first experience, ideal for a free afternoon during a trip."
+        },
+        {
+          "duration": "Half-day",
+          "name": "Nature immersion",
+          "description": "Longer trail, gentle elevation gain, picnic included. The most requested format for a spa or nature trip."
+        },
+        {
+          "duration": "2 to 3 days",
+          "name": "Themed stay",
+          "description": "Assisted hiking combined with gentle activities (wellness, local discovery). A higher average ticket for your agency."
+        }
+      ]
+    }
+  },
+  "howItWorks": {
+    "hero": {
+      "eyebrow": "The itinerary",
+      "title": "What an Exotour day looks like",
+      "subtitle": "From welcoming the group to returning the equipment."
+    },
+    "steps": [
+      {
+        "number": "01",
+        "title": "Welcome and briefing",
+        "description": "Group introduction, comfort questionnaire, individual fitting of each exoskeleton."
+      },
+      {
+        "number": "02",
+        "title": "Guided familiarisation",
+        "description": "A few minutes of supervised walking before departure so everyone feels comfortable with the assistance."
+      },
+      {
+        "number": "03",
+        "title": "The hike",
+        "description": "The route at the group's own pace, regular breaks, a guide attentive to everyone's comfort."
+      },
+      {
+        "number": "04",
+        "title": "Return and debrief",
+        "description": "Equipment removal, feedback session, souvenir photos to share with your agency."
+      }
+    ],
+    "imageAlt": "Aerial view of a line of hikers walking along a green ridge trail",
+    "summary": {
+      "eyebrow": "Overview",
+      "title": "A day designed for confidence, not performance",
+      "body": "Every step is designed so the group moves at its own pace, with supervision present from the first step to the last — without ever turning the hike into a trial."
+    }
+  },
+  "partnership": {
+    "hero": {
+      "eyebrow": "Work with us",
+      "title": "A partnership designed to fit into your existing offer",
+      "subtitle": "You keep your catalogue, your brand and your customer relationship."
+    },
+    "response": {
+      "eyebrow": "Our answer",
+      "title": "An assisted-hiking module, ready to integrate",
+      "items": [
+        {
+          "title": "You keep your catalogue and your brand",
+          "body": "Exotour is added as an activity within a trip you already sell.",
+          "tag": "Your brand"
+        },
+        {
+          "title": "We bring the equipment and the expertise",
+          "body": "Exoskeletons, individual fitting, trained guide, safety protocol.",
+          "tag": "Our expertise"
+        },
+        {
+          "title": "You keep the customer relationship",
+          "body": "We act as a technical provider, white-label if you prefer.",
+          "tag": "White label"
+        }
+      ]
+    },
+    "structure": {
+      "eyebrow": "Partnership structure",
+      "title": "A simple commitment model, with no imposed price grid",
+      "body": "The formula adapts to your volume of activity: a per-participant rate to get started, a flat fee for a full group on a guaranteed date, or a seasonal commitment across several departures.",
+      "exclusivityTitle": "Territorial exclusivity, on request",
+      "exclusivityBody": "For agencies committing to a volume of departures in advance, we can discuss territorial or seasonal exclusivity — so you are the only agency in your market offering Exotour to your clients."
+    },
+    "ctaBand": {
+      "title": "Let's discuss your first pilot trip",
+      "body": "We propose calibrating the offer with a first test group on one of your existing destinations, so we can jointly fine-tune onboarding time, on-the-ground logistics and conditions before a larger rollout.",
+      "button": "Get in touch"
+    }
+  },
+  "contact": {
+    "title": "Let's discuss your first pilot trip",
+    "subtitle": "Leave us your details, a member of the Exotour team will get back to you within 48h.",
+    "fields": {
+      "agencyName": "Agency name",
+      "contactName": "Contact name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Your message"
+    },
+    "placeholders": {
+      "agencyName": "Horizon Travel",
+      "contactName": "First and last name",
+      "email": "you@agency.com",
+      "phone": "+33 6 12 34 56 78",
+      "message": "Tell us about your agency, your destinations, your availability for a pilot trip..."
+    },
+    "submit": "Send my request",
+    "submitting": "Sending...",
+    "success": "Thank you! Your request has been sent, we'll be in touch very soon.",
+    "error": "Something went wrong. Please try again or write to us directly.",
+    "required": "This field is required",
+    "invalidEmail": "Invalid email address"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "The page you are looking for doesn't exist or has been moved.",
+    "cta": "Back to home"
+  },
+  "stats": {
+    "groupSize": { "value": "10-15", "label": "people per supervised group" },
+    "guideRatio": { "value": "1", "label": "trained guide per 5 to 6 participants" },
+    "formats": { "value": "3", "label": "trip formats, from 2h to 3 days" },
+    "investment": { "value": "€0", "label": "equipment investment for the agency" }
+  }
+}

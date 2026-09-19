@@ -1,0 +1,11 @@
+rules_version = '2';
+
+service firebase.storage {
+  match /b/{bucket}/o {
+    // No public uploads or downloads in this v1 — Cloud Storage is scaffolded
+    // for the future partner resource library (see integrations/README).
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

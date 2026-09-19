@@ -1,0 +1,17 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Leads are only ever created by the submitLead Cloud Function
+    // (Admin SDK bypasses rules). No client reads or writes are allowed,
+    // since this v1 has no authenticated partner space yet.
+    match /leads/{leadId} {
+      allow read, write: if false;
+    }
+
+    // Default deny — no other collections are exposed in this v1.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

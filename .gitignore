@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+apps/web/dist/
+functions/lib/
+
+# Env files
+.env
+.env.local
+.env.*.local
+apps/web/.env
+apps/web/.env.local
+functions/.env
+functions/.env.local
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+*.firebase.json.bak
+
+# Capacitor native platforms (generated on demand)
+apps/web/ios/
+apps/web/android/
+
+# Editor / OS
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+*.log
+npm-debug.log*
+
+# Misc
+.eslintcache
+coverage/

@@ -1,0 +1,242 @@
+{
+  "meta": {
+    "title": "Exotour — La randonnée accessible à tous",
+    "description": "Exotour équipe les groupes de vos agences d'exosquelettes d'assistance à la marche et fournit l'encadrement complet, sans investissement matériel de votre part."
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "Qui sommes-nous",
+    "technology": "Notre technologie",
+    "concept": "Le concept",
+    "howItWorks": "Comment ça marche",
+    "partnership": "Partenariat",
+    "cta": "Devenir partenaire"
+  },
+  "footer": {
+    "tagline": "Exotour — Randonnées assistées par exosquelette, Europe",
+    "credit": "Un projet développé en lien avec Riviera Shockwaves"
+  },
+  "language": {
+    "fr": "FR",
+    "en": "EN"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Pour les agences de voyage — Europe",
+      "title": "La randonnée accessible à tous, sans investissement de votre part.",
+      "subtitle": "Exotour équipe vos groupes d'exosquelettes d'assistance à la marche et fournit l'encadrement complet — vous gardez votre catalogue, votre marque et votre relation client."
+    },
+    "about": {
+      "eyebrow": "Qui sommes-nous",
+      "title": "Rendre le mouvement à ceux qui l'ont mis de côté",
+      "body": "Exotour est né d'une conviction simple : la difficulté à marcher ne devrait jamais être la raison pour laquelle quelqu'un renonce à découvrir un lieu. Nous équipons les randonneurs d'une assistance à la marche discrète, et mettons cette technologie au service des agences qui construisent déjà des séjours en Europe."
+    },
+    "imageAlt": "Un couple de randonneurs seniors équipés de leur exosquelette, souriants, dans un paysage de montagne",
+    "difference": {
+      "eyebrow": "Notre différence",
+      "title": "Une différenciation immédiate, sans investissement de votre part",
+      "calloutTitle": "Vous n'achetez rien, vous ajoutez une activité",
+      "calloutBody": "Pas de matériel à acquérir, pas de personnel à former, pas de risque à porter seul : Exotour arrive avec son propre encadrement et son assurance. Vous annoncez une expérience que peu d'agences proposent aujourd'hui en Europe."
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "Notre histoire",
+      "title": "Qui sommes-nous",
+      "subtitle": "Rendre le mouvement à ceux qui l'ont mis de côté."
+    },
+    "conviction": {
+      "eyebrow": "Notre conviction",
+      "title": "La difficulté à marcher ne devrait jamais être la raison pour laquelle quelqu'un renonce à découvrir un lieu",
+      "body": "Nous équipons les randonneurs d'une assistance à la marche discrète, et nous mettons cette technologie au service des agences qui construisent déjà des séjours en Europe."
+    },
+    "notTitle": "Ce que nous ne sommes pas",
+    "notBody": "Nous ne vendons pas du matériel. Nous ne sommes pas un fabricant d'exosquelettes cherchant des distributeurs.",
+    "areTitle": "Ce que nous sommes",
+    "areBody": "Nous fournissons une expérience complète — dispositif, encadrement, sécurité — pensée pour redonner à des marcheurs empêchés le plaisir simple d'avancer sur un sentier, au rythme d'un groupe, sans crainte de rester à la traîne.",
+    "imageAlt": "Un groupe de randonneurs assis en cercle, riant ensemble sur un sommet herbeux au coucher du soleil",
+    "figures": {
+      "eyebrow": "En chiffres",
+      "title": "Les fondations de l'offre au lancement",
+      "note": "Chiffres de lancement de l'offre — les indicateurs de performance (mobilité, endurance, satisfaction) seront mesurés et publiés à l'issue des premiers parcours pilotes."
+    }
+  },
+  "technology": {
+    "hero": {
+      "eyebrow": "Le dispositif",
+      "title": "Notre technologie",
+      "subtitle": "Une assistance discrète, pas un appareillage médical lourd."
+    },
+    "how": {
+      "eyebrow": "Comment ça fonctionne",
+      "title": "Un équipement qui se porte comme du matériel de randonnée classique",
+      "body": "L'exosquelette Exotour se porte comme un équipement de randonnée classique : une ceinture ajustée à la taille, deux sangles descendant le long des cuisses jusqu'à de petits actionneurs positionnés sur le côté de la jambe, juste au-dessus du genou."
+    },
+    "imageAlt": "Un guide ajuste l'exosquelette sur la jambe d'un randonneur avant le départ",
+    "changesTitle": "Ce que ça change concrètement",
+    "changesBody": "Une assistance progressive à chaque pas, qui réduit l'effort perçu dans les montées et préserve les articulations dans les descentes — sans bloquer ni forcer le mouvement naturel de la marche.",
+    "notReplaceTitle": "Ce que ça ne remplace pas",
+    "notReplaceBody": "Ce n'est pas un dispositif médical : chaque participant reste évalué en amont par notre guide via un court questionnaire de confort, pour s'assurer que le format choisi lui convient.",
+    "supervisionTitle": "Encadrement systématique",
+    "supervisionBody": "Chaque exosquelette est réglé individuellement avant le départ par un guide formé à son usage, présent tout au long du parcours."
+  },
+  "concept": {
+    "hero": {
+      "eyebrow": "Le concept",
+      "title": "Un module de randonnée assistée, prêt à intégrer à votre catalogue",
+      "subtitle": "Trois formats, une même promesse : marcher sans crainte."
+    },
+    "observation": {
+      "eyebrow": "Le constat",
+      "title": "Beaucoup de marcheurs restent à l'écart des sentiers",
+      "body": "Douleurs articulaires, rééducation, essoufflement, appréhension de la fatigue : une part importante des clients d'agences de tourisme et de voyage renonce aux randonnées proposées à leur catalogue, faute de se sentir capable de suivre le groupe."
+    },
+    "clientProblemTitle": "Le problème pour vos clients",
+    "clientProblemBody": "Ils aimeraient participer, mais choisissent une activité plus statique — ou renoncent au séjour actif tout court.",
+    "agencyProblemTitle": "Le problème pour vous",
+    "agencyProblemBody": "Un segment entier de votre clientèle (seniors, curistes, personnes en réadaptation douce) reste hors de portée de votre offre randonnée actuelle.",
+    "included": {
+      "eyebrow": "Ce qui est inclus",
+      "title": "Un forfait tout compris, par groupe",
+      "items": [
+        "Location et réglage individuel de l'exosquelette pour chaque participant",
+        "Guide accompagnateur formé à l'usage de l'exosquelette",
+        "Parcours adapté au terrain et au profil du groupe",
+        "Assurance dédiée à l'activité",
+        "Repas ou pause casse-croûte selon la formule",
+        "Transport du matériel jusqu'au point de départ"
+      ]
+    },
+    "formats": {
+      "eyebrow": "Les formats",
+      "title": "Trois formats, une même promesse",
+      "items": [
+        {
+          "duration": "2 à 3 heures",
+          "name": "Découverte",
+          "description": "Terrain plat, boucle courte, une à deux pauses paysage. Une première expérience en douceur, idéale pour un après-midi de séjour."
+        },
+        {
+          "duration": "Demi-journée",
+          "name": "Immersion nature",
+          "description": "Sentier plus long, léger dénivelé, pique-nique inclus. Le format le plus demandé pour un séjour thermal ou nature."
+        },
+        {
+          "duration": "2 à 3 jours",
+          "name": "Séjour thématique",
+          "description": "Randonnée assistée combinée à des activités douces (bien-être, découverte locale). Ticket moyen plus élevé pour votre agence."
+        }
+      ]
+    }
+  },
+  "howItWorks": {
+    "hero": {
+      "eyebrow": "Le déroulé",
+      "title": "Comment se passe une journée Exotour",
+      "subtitle": "De l'accueil du groupe à la restitution du matériel."
+    },
+    "steps": [
+      {
+        "number": "01",
+        "title": "Accueil et briefing",
+        "description": "Présentation du groupe, questionnaire de confort, ajustement individuel de chaque exosquelette."
+      },
+      {
+        "number": "02",
+        "title": "Prise en main guidée",
+        "description": "Quelques minutes de marche encadrée avant le départ pour que chacun se sente à l'aise avec l'assistance."
+      },
+      {
+        "number": "03",
+        "title": "La randonnée",
+        "description": "Parcours au rythme du groupe, pauses régulières, guide attentif au confort de chacun."
+      },
+      {
+        "number": "04",
+        "title": "Retour et restitution",
+        "description": "Retrait du matériel, retour d'expérience, photos souvenirs à partager avec votre agence."
+      }
+    ],
+    "imageAlt": "Vue aérienne d'un groupe de randonneurs en file avançant sur un sentier de crête verdoyant",
+    "summary": {
+      "eyebrow": "Vue d'ensemble",
+      "title": "Une journée pensée pour la confiance, pas la performance",
+      "body": "Chaque étape est conçue pour que le groupe avance à son rythme, avec un encadrement présent du premier au dernier pas — sans jamais transformer la randonnée en épreuve."
+    }
+  },
+  "partnership": {
+    "hero": {
+      "eyebrow": "Travailler avec nous",
+      "title": "Un partenariat pensé pour s'intégrer à votre offre existante",
+      "subtitle": "Vous gardez votre catalogue, votre marque et votre relation client."
+    },
+    "response": {
+      "eyebrow": "Notre réponse",
+      "title": "Un module de randonnée assistée, prêt à intégrer",
+      "items": [
+        {
+          "title": "Vous gardez votre catalogue et votre marque",
+          "body": "Exotour s'ajoute comme une activité au sein d'un séjour que vous vendez déjà.",
+          "tag": "Votre marque"
+        },
+        {
+          "title": "Nous apportons le matériel et l'expertise",
+          "body": "Exosquelettes, réglage individuel, guide formé, protocole de sécurité.",
+          "tag": "Notre expertise"
+        },
+        {
+          "title": "Vous gardez la relation client",
+          "body": "Nous intervenons en prestataire technique, en marque blanche si vous le souhaitez.",
+          "tag": "Marque blanche"
+        }
+      ]
+    },
+    "structure": {
+      "eyebrow": "Structure de partenariat",
+      "title": "Une logique d'engagement simple, sans grille tarifaire imposée",
+      "body": "La formule s'adapte à votre volume d'activité : un tarif par participant pour démarrer, un forfait pour un groupe complet sur une date garantie, ou un engagement saisonnier sur plusieurs départs.",
+      "exclusivityTitle": "Une exclusivité territoriale possible",
+      "exclusivityBody": "Pour les agences qui s'engagent sur un volume de départs à l'avance, nous pouvons discuter d'une exclusivité territoriale ou saisonnière — pour que vous soyez la seule agence de votre marché à proposer Exotour à vos clients."
+    },
+    "ctaBand": {
+      "title": "Discutons de votre premier parcours pilote",
+      "body": "Nous proposons de calibrer l'offre avec un premier groupe test sur l'une de vos destinations existantes, afin d'ajuster ensemble le temps de prise en main, la logistique terrain et les conditions avant un déploiement plus large.",
+      "button": "Prendre contact"
+    }
+  },
+  "contact": {
+    "title": "Discutons de votre premier parcours pilote",
+    "subtitle": "Laissez-nous vos coordonnées, un membre de l'équipe Exotour vous recontacte sous 48h.",
+    "fields": {
+      "agencyName": "Nom de l'agence",
+      "contactName": "Nom du contact",
+      "email": "Email",
+      "phone": "Téléphone",
+      "message": "Votre message"
+    },
+    "placeholders": {
+      "agencyName": "Voyages Horizon",
+      "contactName": "Prénom et nom",
+      "email": "vous@agence.com",
+      "phone": "+33 6 12 34 56 78",
+      "message": "Parlez-nous de votre agence, de vos destinations, de vos disponibilités pour un pilote..."
+    },
+    "submit": "Envoyer ma demande",
+    "submitting": "Envoi en cours...",
+    "success": "Merci ! Votre demande a bien été transmise, nous revenons vers vous très vite.",
+    "error": "Une erreur est survenue. Merci de réessayer ou de nous écrire directement.",
+    "required": "Ce champ est requis",
+    "invalidEmail": "Adresse email invalide"
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "body": "La page que vous cherchez n'existe pas ou a été déplacée.",
+    "cta": "Retour à l'accueil"
+  },
+  "stats": {
+    "groupSize": { "value": "10-15", "label": "personnes par groupe encadré" },
+    "guideRatio": { "value": "1", "label": "guide formé pour 5 à 6 participants" },
+    "formats": { "value": "3", "label": "formats de parcours, de 2h à 3 jours" },
+    "investment": { "value": "0 €", "label": "investissement matériel pour l'agence" }
+  }
+}

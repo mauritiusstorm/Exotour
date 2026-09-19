@@ -1,0 +1,22 @@
+{
+  "name": "exotour",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Exotour — vitrine B2B pour agences de voyage et tour-opérateurs",
+  "workspaces": [
+    "apps/web",
+    "functions"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=apps/web",
+    "build": "npm run build --workspace=apps/web",
+    "preview": "npm run preview --workspace=apps/web",
+    "lint": "npm run lint --workspace=apps/web",
+    "functions:build": "npm run build --workspace=functions",
+    "emulators": "firebase emulators:start",
+    "deploy": "npm run build && firebase deploy"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
