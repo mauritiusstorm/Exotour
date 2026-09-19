@@ -27,6 +27,11 @@ ui-debug.log
 apps/web/ios/
 apps/web/android/
 
+# TypeScript build info and emitted config artifacts
+*.tsbuildinfo
+apps/web/vite.config.js
+apps/web/vite.config.d.ts
+
 # Editor / OS
 .DS_Store
 .vscode/*
