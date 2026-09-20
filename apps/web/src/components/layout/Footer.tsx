@@ -10,7 +10,7 @@ export default function Footer() {
     <footer className="border-t border-navy/10 bg-cream">
       <div className="mx-auto flex max-w-content flex-col gap-8 px-6 py-12 sm:flex-row sm:items-start sm:justify-between lg:px-8">
         <div>
-          <Logo className="text-2xl" />
+          <Logo className="h-10" />
         </div>
 
         <nav className="grid grid-cols-2 gap-x-8 gap-y-3 sm:grid-cols-3" aria-label="Navigation secondaire">

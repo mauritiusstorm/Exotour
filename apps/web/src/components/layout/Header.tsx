@@ -16,7 +16,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 border-b border-navy/10 bg-cream/95 backdrop-blur">
       <div className="mx-auto flex max-w-content items-center justify-between gap-6 px-6 py-4 lg:px-8">
         <NavLink to="/" onClick={closeMobileMenu} className="shrink-0">
-          <Logo className="text-xl" />
+          <Logo className="h-9" />
         </NavLink>
 
         <nav className="hidden items-center gap-5 xl:flex" aria-label="Navigation principale">
