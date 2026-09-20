@@ -1,8 +1,9 @@
 import { useTranslation } from 'react-i18next';
 import PageHero from '@/components/ui/PageHero';
-import PhotoPlaceholder from '@/components/ui/PhotoPlaceholder';
+import Photo from '@/components/ui/Photo';
 import Stat from '@/components/ui/Stat';
 import PageMeta from '@/components/PageMeta';
+import aboutGroup from '@/assets/images/about-group.jpg';
 
 export default function About() {
   const { t } = useTranslation();
@@ -30,7 +31,7 @@ export default function About() {
         </div>
       </section>
 
-      <PhotoPlaceholder alt={t('about.imageAlt')} className="h-[26rem] w-full sm:h-[30rem]" />
+      <Photo src={aboutGroup} alt={t('about.imageAlt')} className="h-[26rem] w-full sm:h-[30rem]" />
 
       <section className="bg-navy">
         <div className="section">

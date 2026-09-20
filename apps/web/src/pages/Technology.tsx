@@ -1,7 +1,8 @@
 import { useTranslation } from 'react-i18next';
 import PageHero from '@/components/ui/PageHero';
-import PhotoPlaceholder from '@/components/ui/PhotoPlaceholder';
+import Photo from '@/components/ui/Photo';
 import PageMeta from '@/components/PageMeta';
+import technologyFitting from '@/assets/images/technology-fitting.jpg';
 
 export default function Technology() {
   const { t } = useTranslation();
@@ -20,7 +21,11 @@ export default function Technology() {
         <h2 className="max-w-3xl text-3xl font-semibold leading-tight sm:text-4xl">{t('technology.how.title')}</h2>
 
         <div className="mt-10 grid gap-10 lg:grid-cols-2 lg:items-start">
-          <PhotoPlaceholder alt={t('technology.imageAlt')} className="h-80 w-full rounded-2xl sm:h-96" />
+          <Photo
+            src={technologyFitting}
+            alt={t('technology.imageAlt')}
+            className="h-80 w-full rounded-2xl sm:h-96"
+          />
 
           <div className="grid gap-8">
             <p className="text-base leading-relaxed text-ink/80 sm:text-lg">{t('technology.how.body')}</p>

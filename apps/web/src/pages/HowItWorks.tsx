@@ -1,7 +1,8 @@
 import { useTranslation } from 'react-i18next';
 import PageHero from '@/components/ui/PageHero';
-import PhotoPlaceholder from '@/components/ui/PhotoPlaceholder';
+import Photo from '@/components/ui/Photo';
 import PageMeta from '@/components/PageMeta';
+import howItWorksAerial from '@/assets/images/how-it-works-aerial.jpg';
 
 export default function HowItWorks() {
   const { t } = useTranslation();
@@ -32,7 +33,7 @@ export default function HowItWorks() {
         </div>
       </section>
 
-      <PhotoPlaceholder alt={t('howItWorks.imageAlt')} className="h-[26rem] w-full sm:h-[30rem]" />
+      <Photo src={howItWorksAerial} alt={t('howItWorks.imageAlt')} className="h-[26rem] w-full sm:h-[30rem]" />
 
       <section className="bg-navy">
         <div className="section">

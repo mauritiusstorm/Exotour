@@ -1,8 +1,9 @@
 import { useTranslation } from 'react-i18next';
 import Button from '@/components/ui/Button';
 import Stat from '@/components/ui/Stat';
-import PhotoPlaceholder from '@/components/ui/PhotoPlaceholder';
+import Photo from '@/components/ui/Photo';
 import PageMeta from '@/components/PageMeta';
+import homeHero from '@/assets/images/home-hero.jpg';
 
 export default function Home() {
   const { t } = useTranslation();
@@ -44,7 +45,7 @@ export default function Home() {
         </div>
       </section>
 
-      <PhotoPlaceholder alt={t('home.imageAlt')} className="h-[28rem] w-full sm:h-[32rem]" />
+      <Photo src={homeHero} alt={t('home.imageAlt')} className="h-[28rem] w-full sm:h-[32rem]" />
 
       <section className="bg-cream">
         <div className="section">
