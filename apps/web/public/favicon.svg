@@ -1,4 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <rect width="64" height="64" rx="14" fill="#163B4D"/>
-  <text x="32" y="42" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" fill="#C79A4B">E</text>
+  <path
+    d="M15.14 45.5
+       A 19 19 0 0 1 16.54 29.5
+       L 25 7
+       L 33 19
+       L 41 7
+       L 49.46 29.5
+       A 19 19 0 0 1 52 39
+       A 19 19 0 0 1 33 58
+       A 19 19 0 0 1 16.54 48.5
+       Q 22 53 27 49"
+    fill="none"
+    stroke="#C79A4B"
+    stroke-width="4.6"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
 </svg>

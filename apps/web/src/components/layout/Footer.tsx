@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { routes } from '@/routes';
+import Logo from '@/components/ui/Logo';
 
 export default function Footer() {
   const { t } = useTranslation();
@@ -9,10 +10,7 @@ export default function Footer() {
     <footer className="border-t border-navy/10 bg-cream">
       <div className="mx-auto flex max-w-content flex-col gap-8 px-6 py-12 sm:flex-row sm:items-start sm:justify-between lg:px-8">
         <div>
-          <p className="font-serif text-2xl font-semibold">
-            <span className="text-navy">Exo</span>
-            <span className="text-gold">tour</span>
-          </p>
+          <Logo className="text-2xl" />
         </div>
 
         <nav className="grid grid-cols-2 gap-x-8 gap-y-3 sm:grid-cols-3" aria-label="Navigation secondaire">

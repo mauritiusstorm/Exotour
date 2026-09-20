@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { routes } from '@/routes';
 import { useUIStore } from '@/store/useUIStore';
 import Button from '@/components/ui/Button';
+import Logo from '@/components/ui/Logo';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 
 export default function Header() {
@@ -13,20 +14,19 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-navy/10 bg-cream/95 backdrop-blur">
-      <div className="mx-auto flex max-w-content items-center justify-between px-6 py-4 lg:px-8">
-        <NavLink to="/" onClick={closeMobileMenu} className="font-serif text-2xl font-semibold">
-          <span className="text-navy">Exo</span>
-          <span className="text-gold">tour</span>
+      <div className="mx-auto flex max-w-content items-center justify-between gap-6 px-6 py-4 lg:px-8">
+        <NavLink to="/" onClick={closeMobileMenu} className="shrink-0">
+          <Logo className="text-xl" />
         </NavLink>
 
-        <nav className="hidden items-center gap-7 lg:flex" aria-label="Navigation principale">
+        <nav className="hidden items-center gap-5 xl:flex" aria-label="Navigation principale">
           {routes.map((route) => (
             <NavLink
               key={route.path}
               to={route.path}
               end={route.path === '/'}
               className={({ isActive }) =>
-                `text-sm font-medium transition-colors hover:text-gold ${
+                `whitespace-nowrap text-sm font-medium transition-colors hover:text-gold ${
                   isActive ? 'text-navy underline decoration-gold decoration-2 underline-offset-8' : 'text-ink/80'
                 }`
               }
@@ -36,7 +36,7 @@ export default function Header() {
           ))}
         </nav>
 
-        <div className="hidden items-center gap-5 lg:flex">
+        <div className="hidden shrink-0 items-center gap-4 xl:flex">
           <LanguageSwitcher />
           <Button as="link" to="/partenariat#contact" variant="primary">
             {t('nav.cta')}
@@ -45,7 +45,7 @@ export default function Header() {
 
         <button
           type="button"
-          className="inline-flex items-center justify-center rounded-md p-2 text-navy lg:hidden"
+          className="inline-flex items-center justify-center rounded-md p-2 text-navy xl:hidden"
           aria-expanded={isMobileMenuOpen}
           aria-controls="mobile-menu"
           aria-label="Menu"
@@ -62,7 +62,7 @@ export default function Header() {
       </div>
 
       {isMobileMenuOpen && (
-        <div id="mobile-menu" className="border-t border-navy/10 bg-cream px-6 pb-6 pt-2 lg:hidden">
+        <div id="mobile-menu" className="border-t border-navy/10 bg-cream px-6 pb-6 pt-2 xl:hidden">
           <nav className="flex flex-col gap-4" aria-label="Navigation mobile">
             {routes.map((route) => (
               <NavLink
